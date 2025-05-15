@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  @font-face {
+    font-family: 'Nirmala UI';
+    src: url('/src/assets/Nirmala.ttf');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'Nirmala UI';
+    src: url('/src/assets/nirmalab.ttf');
+    font-weight: 700;
+  }
+
+  :root {
+    font-family: "Nirmala UI", Inter, system-ui, sans-serif;
+    line-height: 1.5;
+
+    /* color-scheme: light dark;
+    color: rgba(72, 72, 72, 0.87); */
+    /* background-color: #242424; */
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  * {
+    font-family: "Nirmala UI", Inter, system-ui, sans-serif;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .bg-vector {
+    background: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: white;
+    mix-blend-mode: exclusion; */
+  }
+
+  .quiz-vector {
+    background: url(./assets/quizvector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .circle {
+    @apply rounded-full w-12 h-12 md:w-32 md:h-32 shadow-lg;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      /* color: black; */
+      background-color: white;
+    }
+
+    /* a:hover {
+      color: #016f4a;
+    } */
+
+    /* button {
+      background-color: #e9fff7
+    } */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      /* color: ; */
+      background-color: #016f4a;
+    }
+
+    /* a:hover {
+      color: #e9fff7;
+    } */
+
+    /* button {
+      background-color: #016f4a;
+    } */
+  }
+}

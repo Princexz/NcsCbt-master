@@ -15,7 +15,7 @@ export const Footer = ({ abtClick, contactClick, acctClick }) => {
                                 <img src={logo} alt="Logo" className="h-8" />
                                 <span className='text-primary text-xl font-bold'>NCSCBT</span>
                             </div>
-                            <p className="mt-2 text-xs">280 Nothern Blvd Suite 326-324 Albny. {' '}
+                            <p className="mt-2 text-xs"> Akwa Ibom, Nigeria. {' '}
                                 Ny 125-1400</p>
                         </div>
                         <div className="w-full grid grid-cols-2 md:grid-cols-3 justify-between gap-8 mx-auto px-10">
@@ -65,7 +65,7 @@ export const Footer = ({ abtClick, contactClick, acctClick }) => {
                     </div>
                 </div>
             </footer>
-            <div className='font-semibold -mb-10 pt-10 pb-5'>&copy; Enda Rae 2024.</div>
+            <div className='font-semibold -mb-10 pt-10 pb-5'>&copy; Datasoft 2025.</div>
         </div>
     );
 };

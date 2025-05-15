@@ -52,4 +52,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any inquiries, please contact Jesujoba at Prince_solomon@yahoo.com.
+For any inquiries, please contact Prince at Prince_solomon@yahoo.com.
